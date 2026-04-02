@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playwrite+IE:wght@100..400&family=Shizuru&display=swap');
+
+
+
+.japanese {
+    font-family: "Playwrite IE", cursive;
+    display: inline-block;
+    padding:1rem;
+}
+
+.learnJapanese {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    height: 15rem;
+}
+
+.learnJapanese h1 {
+    margin-inline:auto;
+    overflow:hidden;
+    white-space:nowrap;
+    border-right: 1px solid #fff9fb;
+    animation: typing 3s steps(13) forwards;
+}
+
+@keyframes typing {
+    from{width:0;}
+    to{width:100%;}
+}
+
