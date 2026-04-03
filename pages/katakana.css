@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bpmf+Huninn&family=Kosugi+Maru&display=swap');
+
+
+.katakanacontainer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.katakana {
+    background-color: #1f1f20;
+    border-radius: 1rem;
+    border: 0.2rem solid #848287;
+  font-family: "Kosugi Maru", sans-serif;
+    text-align: center;
+}
+
+.katakana:hover {
+    cursor: crosshair;
+}
