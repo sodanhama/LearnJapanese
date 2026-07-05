@@ -29,8 +29,8 @@ katakana.addEventListener("mouseenter", () => {
 });    
 
 kanji.addEventListener("mouseenter", () => {
-    kanji.textContent = "かんじ";
-    kanji.style.fontFamily = "Shizuru, cursive";
+    kanji.textContent = "漢字";
+    kanji.style.fontFamily = "Yuji Mai, cursive";
 });
 
 hiragana.addEventListener("mouseleave", () => {
